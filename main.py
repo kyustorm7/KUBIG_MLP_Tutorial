@@ -16,7 +16,7 @@ MLP.to(device)
 
 optimizer = torch.optim.Adam(MLP.parameters(), lr = 0.001)
 
-epochs = 20
+epochs = 10
 train_losses = []
 test_losses = []
 train_correct = []
